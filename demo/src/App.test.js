@@ -7,7 +7,12 @@ Enzyme.configure({
   adapter: new EnzymeAdapter(),
 });
 
-test('renders learn react link', () => {
-  const wrapper = shallow(<App />);
-  console.log(wrapper.debug());
-});
+test('Renders without error', () => {});
+
+test('Renders increment button', () => {});
+
+test('Renders counter display', () => {});
+
+test('Counter starts at 0', () => {});
+
+test('Clicking button increments counter display', () => {});
