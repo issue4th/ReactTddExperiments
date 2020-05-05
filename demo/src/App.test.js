@@ -7,7 +7,11 @@ Enzyme.configure({
   adapter: new EnzymeAdapter(),
 });
 
-test('Renders without error', () => {});
+test('Renders without error', () => {
+  const wrapper = shallow(<App />);
+  const appComponent = wrapper.find("[data-test='component-app']");
+  expect(appComponent.length).toBe(1); // One element
+});
 
 test('Renders increment button', () => {});
 

@@ -3,11 +3,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    return (
-      <div className='App'>
-        <h1>Learn React TDD</h1>
-      </div>
-    );
+    return <div data-test=''></div>;
   }
 }
 
